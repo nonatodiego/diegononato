@@ -10,8 +10,8 @@ export const SocialData = [
     icon: require('../../assets/icons/linkedin.svg').default,
   },
   {
-    platform: 'Instagram',
-    link: 'instagram.com/_diegononato',
-    icon: require('../../assets/icons/instagram.svg').default,
+    platform: 'Email',
+    link: 'mailto:diegononatodev@gmail.com?subject=Olá%20Diego',
+    icon: require('../../assets/icons/gmail.svg').default,
   },
 ]

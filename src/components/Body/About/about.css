@@ -10,6 +10,15 @@
 
 .picture {
   height: 420px;
+  filter: brightness(.5);
+  transform: scale(.9);
+  transition: all 2s;
+}
+
+.picture:hover {
+  transform: scale(1);
+
+  filter: brightness(1);
 }
 
 .about-info {

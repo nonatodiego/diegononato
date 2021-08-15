@@ -12,10 +12,16 @@
 
 .social-icon {
   height: 40px;
+  filter:blur(2px);
+}
+
+.social-icon:hover {
+  filter:blur(0);
 }
 
 @media (max-width: 768px) {
   .social-icon {
     height: 24px;
+    filter: blur(0);
   }
 }
